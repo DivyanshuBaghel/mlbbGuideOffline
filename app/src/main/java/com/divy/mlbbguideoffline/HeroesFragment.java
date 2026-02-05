@@ -52,10 +52,10 @@ public class HeroesFragment extends Fragment {
         String[] categories = { "All", "Tank", "Fighter", "Assassin", "Mage", "Marksman", "Support" };
 
         for (String category : categories) {
-            com.google.android.material.chip.Chip chip = new com.google.android.material.chip.Chip(requireContext());
+            com.google.android.material.chip.Chip chip = (com.google.android.material.chip.Chip) LayoutInflater
+                    .from(requireContext()).inflate(R.layout.item_chip_category, chipGroup, false);
             chip.setText(category);
-            chip.setCheckable(true);
-            chip.setClickable(true);
+            chip.setId(View.generateViewId()); // Ensure unique IDs for SingleSelection
 
             // Set "All" as default checked
             if (category.equals("All")) {

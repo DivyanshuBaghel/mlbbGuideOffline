@@ -1,6 +1,7 @@
 package com.divy.mlbbguideoffline.adapter;
 
 import android.content.Context;
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,6 +49,12 @@ public class HeroAdapter extends RecyclerView.Adapter<HeroAdapter.HeroViewHolder
         } else {
             holder.ivPortrait.setImageResource(R.drawable.ic_launcher_foreground);
         }
+
+        holder.itemView.setOnClickListener(v -> {
+            Intent intent = new Intent(context, com.divy.mlbbguideoffline.HeroDetailActivity.class);
+            intent.putExtra(com.divy.mlbbguideoffline.HeroDetailActivity.EXTRA_HERO, hero);
+            context.startActivity(intent);
+        });
     }
 
     @Override
