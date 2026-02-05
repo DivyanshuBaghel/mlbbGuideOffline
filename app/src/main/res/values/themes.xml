@@ -1,0 +1,157 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MlbbGuideOffline" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/md_theme_light_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer</item>
+        <item name="colorError">@color/md_theme_light_error</item>
+        <item name="colorOnError">@color/md_theme_light_onError</item>
+        <item name="colorErrorContainer">@color/md_theme_light_errorContainer</item>
+        <item name="colorOnErrorContainer">@color/md_theme_light_onErrorContainer</item>
+        <item name="android:colorBackground">@color/md_theme_light_background</item>
+        <item name="colorOnBackground">@color/md_theme_light_onBackground</item>
+        <item name="colorSurface">@color/md_theme_light_surface</item>
+        <item name="colorOnSurface">@color/md_theme_light_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_theme_light_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_theme_light_onSurfaceVariant</item>
+        <item name="colorOutline">@color/md_theme_light_outline</item>
+        <!-- <item name="colorInverseOnSurface">@color/md_theme_light_inverseOnSurface</item> -->
+        <!-- <item name="colorInverseSurface">@color/md_theme_light_inverseSurface</item> -->
+        <!-- <item name="colorInversePrimary">@color/md_theme_light_inversePrimary</item> -->
+        <!-- <item name="colorSurfaceTint">@color/md_theme_light_surfaceTint</item> -->
+        <item name="colorOutlineVariant">@color/md_theme_light_outlineVariant</item>
+        <!-- <item name="scrimColor">@color/md_theme_light_scrim</item> -->
+    </style>
+
+    <style name="Theme.MlbbGuideOffline" parent="Base.Theme.MlbbGuideOffline" />
+
+    <style name="Theme.MlbbGuideOffline.Blue" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_blue</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_blue</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_blue</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_blue</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_blue</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_blue</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_blue</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_blue</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_blue</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_blue</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_blue</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_blue</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.Green" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_green</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_green</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_green</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_green</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_green</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_green</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_green</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_green</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_green</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_green</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_green</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_green</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.Indigo" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_indigo</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_indigo</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_indigo</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_indigo</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_indigo</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_indigo</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_indigo</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_indigo</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_indigo</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_indigo</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_indigo</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_indigo</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.Teal" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_teal</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_teal</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_teal</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_teal</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_teal</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_teal</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_teal</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_teal</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_teal</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_teal</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_teal</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_teal</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.Yellow" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_yellow</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_yellow</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_yellow</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_yellow</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_yellow</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_yellow</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_yellow</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_yellow</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_yellow</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_yellow</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_yellow</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_yellow</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.Orange" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_orange</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_orange</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_orange</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_orange</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_orange</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_orange</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_orange</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_orange</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_orange</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_orange</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_orange</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_orange</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.DeepOrange" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_deep_orange</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_deep_orange</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_deep_orange</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_deep_orange</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_deep_orange</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_deep_orange</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_deep_orange</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_deep_orange</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_deep_orange</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_deep_orange</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_deep_orange</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_deep_orange</item>
+    </style>
+
+    <style name="Theme.MlbbGuideOffline.Pink" parent="Base.Theme.MlbbGuideOffline">
+        <item name="colorPrimary">@color/md_theme_light_primary_pink</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary_pink</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer_pink</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer_pink</item>
+        <item name="colorSecondary">@color/md_theme_light_secondary_pink</item>
+        <item name="colorOnSecondary">@color/md_theme_light_onSecondary_pink</item>
+        <item name="colorSecondaryContainer">@color/md_theme_light_secondaryContainer_pink</item>
+        <item name="colorOnSecondaryContainer">@color/md_theme_light_onSecondaryContainer_pink</item>
+        <item name="colorTertiary">@color/md_theme_light_tertiary_pink</item>
+        <item name="colorOnTertiary">@color/md_theme_light_onTertiary_pink</item>
+        <item name="colorTertiaryContainer">@color/md_theme_light_tertiaryContainer_pink</item>
+        <item name="colorOnTertiaryContainer">@color/md_theme_light_onTertiaryContainer_pink</item>
+    </style>
+</resources>
